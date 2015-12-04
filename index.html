@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+<title>Web 200 ||Victoria Moiseenko || Tulip Town</title>
+<link href="styles.css" rel="stylesheet" />
+<link href="flexslider.css" rel="stylesheet" />
+<!-- Begin Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<!-- End Scripts -->
+
+<!-- Begin Flex Slider -->
+<script type="text/javascript">
+$(window).load(function() { // enable function upon window load
+$(".flexslider").flexslider(); // call flexslider function
+});
+</script>
+<!-- End Flex Slider -->
+<!-- Begin Toggle Menu -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() { // enable function upon window load
+	$("#toggle").click(function() { // whe we click toggle
+		$(".main").toggle(); //  open or close the navigation
+	});
+	$(window).resize(function() {
+		
+		if ($(window).width() > 801) {
+		
+			$('.main').css('display' , 'block');
+			
+		}
+		
+	});
+	
+	$(window).resize(function() {
+		
+		if ($(window).width() < 800) {
+		
+			$('.main').css('display' , 'none');
+			
+		}
+		
+	});
+  });
+</script>
+<!-- End Toggle Menu -->
+
+</head>
+<body>
+<!-- Begin Header -->
+<div id="wrap">
+<header id="header">
+<div id="logo">
+<a href="index.html"><img src="images/tulipTown.png" alt="Tulip Town" /></a>
+<img id="toggle" src="images/img-toggle.png" width="25" height="25"	alt="Toggle Menu">
+</div>
+<!-- End Header -->
+
+<!-- Begin Navigation -->
+<div class="navigationitems">
+<nav id="mainnav" class="main">
+<ul>
+<li><a href="flowers.php">Flowers</a></li>
+<li><a href="delivery.php">Delivery</a></li>
+<li><a href="payments.php">Payments</a></li>
+<li><a href="blog.php">Blog</a></li>
+<li><a href="contact.php">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+</div>
+<!-- closed navigation -->
+
+<!-- Start Content -->
+<div id="content">
+<div id="col1">
+<a href="index.html"><img src="images/truck.gif" alt="Tulip Town" /></a>
+<a href="index.html"><img src="images/flower.png" alt="Tulip Town" /></a>
+</div>
+<div id="col2">
+<div class="flexslider">
+<ul class="slides">
+<li><img src="images/m.jpg" width="620" height="300" alt="Image One"><a href="index.html"><button class="home">Buy Flowers&nbsp;&raquo;</button></a></li>
+<li><img src="images/strawberry.jpg" width="620" height="300" alt="Image Two"><a href="index.html"><button class="home">Buy Flowers&nbsp;&raquo;</button></a></li>
+<li><img src="images/sandwich.jpg" width="620" height="300" alt="Image Three"><a href="index.html"><button class="home">Buy Flowers&nbsp;&raquo;</button></a></li>
+</ul>
+</div>
+</div>
+</div> <!-- closed content -->
+
+<div id="middle">
+<div id="widgets">
+<h1>Shop by Price</h1>
+<section class="widget-item">
+<h3>Under $50</h3>
+<a href="index.html"><img src="images/1.jpg" width="220" height="160" alt="Tulip Town" /></a>
+<h4>Boquets</h4>
+</section>
+<section class="widget-item">
+<h3>$50 - $70</h3>
+<a href="index.html"><img src="images/2.jpg" width="220" height="160" alt="Tulip Town" /></a>
+<h4>Weddings</h4>
+</section>
+<section class="widget-item">
+<h3>$70 - $100</h3>
+<a href="index.html"><img src="images/3.jpg" width="220" height="160" alt="Tulip Town" /></a>
+<h4>Gifts</h4>
+</section>
+<section class="widget-item">
+<h3>Over $100</h3>
+<a href="index.html"><img src="images/4.jpg" width="220" height="160" alt="Tulip Town" /></a>
+<h4>Plants</h4>
+</section>
+</div><!--closed widgets -->
+</div> <!-- closed middle -->
+<div class="clear">&nbsp;</div>
+<!-- End Content -->
+<div id="secondary">
+<div id="spotlight">
+<h1>Why We?</h1>
+<div class="col3">
+<a href="index.html"><img src="images/spotl1.png"  alt="Tulip Town" /></a>
+</div>
+<div class="col3">
+<a href="index.html"><img src="images/card.png" alt="Tulip Town" /></a>
+</div>
+<div class="col3">
+<a href="index.html"><img src="images/delivery.png" alt="Tulip Town" /></a>
+</div>
+<div class="col3">
+<a href="index.html"><img src="images/balloon.png"  alt="Tulip Town" /></a>
+</div>
+<div class="col3">
+<a href="index.html"><img src="images/photo.png" alt="Tulip Town" /></a>
+</div>
+<div class="col3">
+<a href="index.html"><img src="images/support.png" alt="Tulip Town" /></a>
+</div>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+<div id="social">
+<h5>Follow Us</h5>
+<div id="social_list">
+<a href="index.html"><img class="col4" src="images/facebook.png" width="67" height="62" alt="Tulip Town" /></a>
+<a href="index.html"><img class="col4" src="images/instagram.png" width="67" height="62" alt="Tulip Town" /></a>
+<a href="index.html"><img class="col4" src="images/google.png" width="67" height="62" alt="Tulip Town" /></a>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+<div id="footer">
+<div id="foot">
+<small>&copy;2015 Tulip Town.</small>
+<small>All rights reserved. Victoria Moiseenko</small>
+</div>
+</div>
+</body>
+</html>
